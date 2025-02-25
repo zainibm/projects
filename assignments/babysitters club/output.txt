@@ -1,0 +1,7 @@
+Employee: Franklin, Maryann Total Pay: $293.00
+Employee: Jones, Jim Total Pay: $75.00
+Employee: Kishi, Claudia Total Pay: $64.38
+Employee: McGill, Stacey Total Pay: $23.50
+Employee: Pike, Mallory Total Pay: $47.31
+Employee: Schafer, Dawn Total Pay: $81.75
+Employee: Thomas, Kristy Total Pay: $51.50
