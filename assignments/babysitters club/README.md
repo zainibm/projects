@@ -5,7 +5,7 @@ Calculations are printed to an output file alphabetically.
 
 ## Commands
 `javac .\BabysittersClub.java` compiles the `.java` program. <br>
-`java .\BabysittersClub.java` runs the program
+`java .\BabysittersClub.java` runs the program.
 
 ## Sample
 | personnel.txt |

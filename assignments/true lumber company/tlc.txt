@@ -1,0 +1,55 @@
+Received 150 of O for $3.0 each
+Received 130 of C for $5.0 each
+Sold 145 O for $3.0 each
+	Sale: $435.0
+	Total: $435
+Received 50 of O for $6.0 each
+Sold 75 C for $5.0 each
+	Sale: $375.0
+Sold 5 O for $3.0 each
+	Sale: $15.0
+Sold 50 O for $6.0 each
+	Sale: $300.0
+130 pieces of O not sold
+	Total: $690
+Received 50 of C for $7.0 each
+Received 30 of C for $8.0 each
+Received 40 of O for $9.0 each
+The next customer will receive a 30% discount on their order
+Sold 50 C for $5.0 each
+	Sale: $250.0
+Sold 30 O for $9.0 each
+	Sale: $270.0
+	Total: $156
+Received 50 of C for $10.0 each
+Received 265 of O for $11.0 each
+Sold 10 O for $9.0 each
+	Sale: $90.0
+Sold 60 O for $11.0 each
+	Sale: $660.0
+	Total: $750
+The next customer will receive a 50% discount on their order
+Sold 100 O for $11.0 each
+	Sale: $1100.0
+Sold 5 C for $5.0 each
+	Sale: $25.0
+Sold 50 C for $7.0 each
+	Sale: $350.0
+Sold 30 C for $8.0 each
+	Sale: $240.0
+Sold 50 C for $10.0 each
+	Sale: $500.0
+20 pieces of C not sold
+Sold 105 O for $11.0 each
+	Sale: $1155.0
+70 pieces of O not sold
+	Total: $1684
+Received 40 of C for $13.0 each
+Received 75 of O for $15.0 each
+Sold 50 O for $15.0 each
+	Sale: $750.0
+	Total: $750
+Received 30 of C for $16.0 each
+Received 40 of O for $18.0 each
+There are 65 of type O wood left
+There are 70 of type C wood left
