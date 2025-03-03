@@ -6,6 +6,7 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./assignments/phonebook">Phonebook App</a>
 - <a href="./assignments/babysitters club">Babysitter's Club</a>
 - <a href="./assignments/true lumber company">True Lumber Company</a>
+- <a href="./assignments/cat">cat</a>
 
 ### Tutorials
 - <a href="./tutorials/leads tracker">Leads Tracker</a>
