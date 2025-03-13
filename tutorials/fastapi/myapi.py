@@ -48,6 +48,16 @@ le => less or equal to
 def get_student(student_id: int = Path(description="ID of student you want to view")):
     return students[student_id]
 
+'''
+A query parameter is search=python in the URL google.com/results?search=python
+Unlike paths, a parameter is not appended to an endpoint
+
+name: str = None makes a query parameter optional
+name: Optional[str] = None is best practice to make a query parameter optional
+
+name: str = None, test: int results in a "non-default argument follows default argument" error => Optional cannot appear before a required parameter
+    - Resolved by prepending * to the parameter list
+'''
 @app.get("/get-by-name")
 def get_by_name(*, name: Optional[str] = None, test: int):
     for student_id in students:
