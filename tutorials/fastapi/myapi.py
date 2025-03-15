@@ -9,6 +9,7 @@ python -m uvicorn myapi:app --reload
 '''
 from fastapi import FastAPI, Path
 from typing import Optional
+from pydantic import BaseModel
 
 # Creates an instance of the fastapi object
 app = FastAPI()
@@ -17,9 +18,14 @@ students = {
     1: {
         "name": "Zainib",
         "age": 25,
-        "class": "college senior"
+        "year": "college senior"
     }
 }
+
+class Student(BaseModel):
+    name: str
+    age: int
+    year: str
 
 '''
 Endpoint => one end of a communication channel
@@ -44,7 +50,7 @@ ge => greater or equal to
 lt => less than
 le => less or equal to
 '''
-@app.get("get-student{student_id}")
+@app.get("/get-student{student_id}")
 def get_student(student_id: int = Path(description="ID of student you want to view")):
     return students[student_id]
 
@@ -57,10 +63,31 @@ name: Optional[str] = None is best practice to make a query parameter optional
 
 name: str = None, test: int results in a "non-default argument follows default argument" error => Optional cannot appear before a required parameter
     - Resolved by prepending * to the parameter list
-'''
+
 @app.get("/get-by-name")
 def get_by_name(*, name: Optional[str] = None, test: int):
     for student_id in students:
         if students[student_id]["name"] == name:
             return students[student_id]
     return {"Data": "Not found"}
+'''
+
+# A combination of path + query parameters
+@app.get("/get-by-name/{student_id}")
+def get_by_name(*, student_id: int, name: Optional[str] = None, test: int):
+    for student_id in students:
+        if students[student_id]["name"] == name:
+            return students[student_id]
+    return {"Data": "Not found"}
+
+'''
+Request body => information or data passed when creating a new object using POST
+    - student_id is a path parameter
+    - student (their name, age, and year) is used to create a new Student object
+'''
+@app.post("/create-student/{student_id}")
+def create_student(student_id: int, student: Student):
+    if student_id in students:
+        return {"Error": "Student exists"}
+    students[student_id] = student
+    return students[student_id]
