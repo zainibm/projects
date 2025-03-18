@@ -27,6 +27,11 @@ class Student(BaseModel):
     age: int
     year: str
 
+class UpdateStudent(BaseModel):
+    name: Optional[str] = None
+    age: Optional[int] = None
+    year: Optional[str] = None
+
 '''
 Endpoint => one end of a communication channel
 For APIs, an endpoint is delete-user in the URL localhost/delete-user
@@ -90,4 +95,20 @@ def create_student(student_id: int, student: Student):
     if student_id in students:
         return {"Error": "Student exists"}
     students[student_id] = student
+    return students[student_id]
+
+'''
+UpdateStudent allows us to optionally update values
+'''
+@app.put("/update-student/{student_id}")
+def update_student(student_id: int, student: UpdateStudent):
+    if student_id not in students:
+        return {"Error": "Student does not exist"}
+    # students[student_id] = student => reassigns values that were not updated to null
+    if student.name != None:
+        students[student_id].name = student.name
+    if student.age != None:
+        students[student_id].age = student.age
+    if student.year != None:
+        students[student_id].year = student.year
     return students[student_id]
