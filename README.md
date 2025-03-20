@@ -15,3 +15,4 @@ A collection of small-scale projects I have worked on to improve my understandin
 ### Tutorials
 - <a href="./tutorials/leads tracker">Leads Tracker</a>
 - <a href="./tutorials/fastapi">FastAPI</a>
+- <a href="./tutorials/chatbot">Chatbot</a>
