@@ -16,3 +16,6 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./tutorials/leads tracker">Leads Tracker</a>
 - <a href="./tutorials/fastapi">FastAPI</a>
 - <a href="./tutorials/chatbot">Chatbot</a>
+
+#### JavaScript30
+- <a href="./tutorials/javascript30/drum kit/">Drum Kit</a>
