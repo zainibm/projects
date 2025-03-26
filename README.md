@@ -20,3 +20,4 @@ A collection of small-scale projects I have worked on to improve my understandin
 #### JavaScript30
 - <a href="./tutorials/javascript30/drum kit">Drum Kit</a>
 - <a href="./tutorials/javascript30/clock">Clock</a>
+- <a href="./tutorials/javascript30/updating css variables">Updating CSS Variables</a>
