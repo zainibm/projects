@@ -23,3 +23,4 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./tutorials/javascript30/updating css variables">Updating CSS Variables</a>
 - <a href="./tutorials/javascript30/array cardio day 1">Array Cardio Day 1</a>
 - <a href="./tutorials/javascript30/flex panels image gallery">Flex Panels Image Gallery</a>
+- <a href="./tutorials/javascript30/type ahead">Type Ahead</a>
