@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.panel {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+        flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+    font-size: 20px;
+    /* Distributes access space evenly between each panel */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel1 {
+    background-color: #264653;
+}
+
+.panel2 {
+    background-color: #2a9d8f;
+}
+
+.panel3 {
+    background-color: #e9c46a;
+}
+
+.panel4 {
+    background-color: #f4a261;
+}
+
+.panel5 {
+    background-color: #e76f51;
+}
+
+/* Flex children */
+.panel>* {
+    margin: 0;
+    width: 100%;
+    transition: transform 0.5s;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    display: flex;
+}
+
+.panel>*:first-child {
+    /* Hide first-child (first <p> element) */
+    transform: translateY(-100%);
+}
+
+.panel.open-active>*:first-child {
+    /* Show first-child (first <p> element) */
+    transform: translateY(0);
+}
+
+.panel>*:last-child {
+    /* Hide last-child (last <p> element) */
+    transform: translateY(100%);
+}
+
+.panel.open-active>*:last-child {
+    /* Show last-child (last <p> element) */
+    transform: translateY(0);
+}
+
+.panel p {
+    text-transform: uppercase;
+    font-family: "Amatic SC", cursive;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+    font-size: 4em;
+}
+
+.panel.open {
+    /* <div class="panel open"> elements take 5 times as much space */
+    flex: 5;
+    font-size: 40px;
+}
