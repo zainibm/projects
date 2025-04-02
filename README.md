@@ -26,3 +26,4 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./tutorials/javascript30/type ahead">Type Ahead</a>
 - <a href="./tutorials/javascript30/array cardio day 2">Array Cardio Day 2</a>
 - <a href="./tutorials/javascript30/html5 canvas">HTML5 Canvas</a>
+- <a href="./tutorials/javascript30/dev tools">Dev Tools</a>
