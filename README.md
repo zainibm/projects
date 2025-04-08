@@ -5,6 +5,7 @@ A collection of small-scale projects I have worked on to improve my understandin
 ### Assignments
 #### Multimedia
 - <a href="./assignments/multimedia/cartoon">Cartoon</a>
+- <a href="./assignments/multimedia/fruit lab">Fruit Lab</a>
 
 #### Java
 - <a href="./assignments/phonebook">Phonebook App</a>
