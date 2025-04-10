@@ -7,7 +7,8 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./assignments/multimedia/cartoon">Cartoon</a>
 - <a href="./assignments/multimedia/fruit lab">Fruit Lab</a>
 - <a href="./assignments/multimedia/cartoon_animation">Cartoon Animation</a>
-- <a href="./assignments/multimedia/audio">Audio</a>
+- <a href="./assignments/multimedia/audio">Audio Lab</a>
+- <a href="./assignments/multimedia/form">Form Lab</a>
 
 #### Java
 - <a href="./assignments/phonebook">Phonebook App</a>

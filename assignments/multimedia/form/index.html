@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Lab</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Form Lab</h1>
+    <div class="bg-img">
+        <form class="container">
+            <label for="tempOptions">Conversion Type:</label><br><br>
+            <input type="radio" id="FtoC" name="tempOptions" value="FtoC" checked = checked>
+            <label for="FtoC">Fahrenheit to Celsius</label><br>
+            <input type="radio" id="CtoF" name="tempOptions" value="CtoF">
+            <label for="CtoF">Celsius to Fahrenheit</label><br><br>
+            <label for="temp">Enter Temperature</label><br><br>
+            <input type="text" id="tempValue" name="tempValue" required placeholder="32">
+            <input type="button" id="convert" onclick="tempCalc()" value="Convert!">
+            <p id="display"></p>
+            <input type="button" id="reset" onclick="resetCalc()" value="Reset">
+        </form>
+  </body>
+</html>
