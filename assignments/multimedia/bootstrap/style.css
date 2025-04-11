@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Lucida Console";
+}
+
+h1 {
+    text-align: center;
+}
+
+[class *="col"],
+[class *="con"] {
+    color: black;
+    padding: 1rem;
+    border: 2px solid white;
+    text-align: center;
+}
+
+[class *="col"] {
+    font-weight: bold;
+}
+
+.col-3 {
+    background-color: mediumorchid;
+}
+
+.col-4 {
+    background-color: mediumaquamarine;
+}
+
+.col-6 {
+    background-color: mediumvioletred
+}
+
+.col-8 {
+    background-color: mediumseagreen;
+}
+
+.col-12 {
+    background-color: mediumslateblue;
+}
