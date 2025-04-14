@@ -10,6 +10,7 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./assignments/multimedia/audio">Audio Lab</a>
 - <a href="./assignments/multimedia/form">Form Lab</a>
 - <a href="./assignments/multimedia/bootstrap">Bootstrap Lab</a>
+- <a href="./assignments/multimedia/video_animation">Video Animation</a>
 
 #### Java
 - <a href="./assignments/phonebook">Phonebook App</a>
