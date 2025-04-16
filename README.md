@@ -12,6 +12,7 @@ A collection of small-scale projects I have worked on to improve my understandin
 - <a href="./assignments/multimedia/bootstrap">Bootstrap Lab</a>
 - <a href="./assignments/multimedia/video_animation">Video Animation</a>
 - <a href="./assignments/multimedia/data_visualization">Data Visualization</a>
+- <a href="./assignments/multimedia/wick_menu">Wick Menu</a>
 
 #### Java
 - <a href="./assignments/phonebook">Phonebook App</a>
